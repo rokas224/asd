@@ -1,7 +1,7 @@
 library(stringr)
 
 #AUTO correct task
-#tried to applie REGEX 
+#tried to apply REGEX 
 regex(.)\1)#finding double letters
 replace($1)# converting to one letter
 
